@@ -1,3 +1,3 @@
-import { Module as ModuleExample } from './ModuleExample';
+import StageModule from './Stage/module';
 
-export default [ModuleExample];
+export default [StageModule];

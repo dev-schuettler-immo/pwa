@@ -20,7 +20,7 @@ const fetchPageBySlug = async (slug: string) => {
             },
         });
     } catch (error) {
-        console.error(error);
+        console.error(JSON.stringify(error, null, 2));
         return false;
     }
 
