@@ -18,7 +18,7 @@ export const Content = styled.div`
     left: 0;
     width: 100%;
     padding: 24px;
-    z-index: 10;
+    z-index: 1;
     color: ${({ theme }) => theme.colors.white};
 
     ${up('xl')} {
@@ -52,6 +52,8 @@ export const Subheadline = styled.div`
 export const ImageContainer = styled.div`
     width: 100%;
     position: relative;
+    border-radius: 28px;
+    overflow: hidden;
 
     &:after {
         content: ' ';
@@ -61,7 +63,6 @@ export const ImageContainer = styled.div`
         height: 100%;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.35) 100%);
         position: absolute;
-        border-radius: 28px;
     }
 `;
 

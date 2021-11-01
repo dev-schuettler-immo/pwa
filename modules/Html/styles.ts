@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { up } from 'styled-breakpoints';
 
 export const Container = styled.div`
+    padding: 80px 24px;
     p,
     li {
         font-size: 20px;
@@ -21,5 +22,14 @@ export const Container = styled.div`
     h5,
     h6 {
         margin-bottom: 40px;
+    }
+    a,
+    p a {
+        color: ${({ theme }) => theme.colors.darkGrey};
+    }
+    ${up('xl')} {
+        padding: 120px 0;
+        width: ${({ theme }) => theme.maxWidth}px;
+        margin: 0 auto;
     }
 `;
