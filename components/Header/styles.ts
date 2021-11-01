@@ -103,7 +103,7 @@ export const Line = styled.div`
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.darkGrey};
     transition: transform 0.8s ease, color 0.2s ease;
     &:nth-child(1) {
         transform: translateY(-7px);
@@ -117,7 +117,6 @@ export const Burger = styled.div<{ open: boolean }>`
     width: 58px;
     height: 58px;
     transition: background-color 0.2s ease;
-    background-color: ${({ theme, open }) => (open ? theme.colors.white : theme.colors.darkGrey)};
     border-radius: 50%;
     position: relative;
     z-index: 3;

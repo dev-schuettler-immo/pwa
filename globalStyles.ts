@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Hind', sans-serif;
     background-color: ${colors.white};
     color: ${colors.grey};
+    overflow-x: hidden;
   }
   p {
     font-size: 20px;

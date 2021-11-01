@@ -44,6 +44,7 @@ export const Headline = styled.div`
     font-weight: 600;
     line-height: 43px;
     margin-bottom: 14px;
+    word-break: break-word;
 `;
 
 export const Subheadline = styled.div`

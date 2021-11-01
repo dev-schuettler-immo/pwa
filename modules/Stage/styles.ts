@@ -30,6 +30,7 @@ export const Headline = styled.div`
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
+    word-break: break-word;
 
     ${up('xl')} {
         font-size: 48px;
