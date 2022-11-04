@@ -22,6 +22,7 @@ export default class MyDocument extends Document {
                 ...initialProps,
                 styles: (
                     <>
+                        <link href='/fonts.css' rel='stylesheet' />
                         {initialProps.styles}
                         {sheet.getStyleElement()}
                     </>
